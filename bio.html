@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bio | Konstantinos Potamianos</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+:root {
+    --main-bg: hwb(20 7% 91%);
+    --accent: rgba(255,255,255,0.4);
+}
+body {
+    background-color: var(--main-bg);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding-top: 120px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1.5rem 3rem;
+    z-index: 2000;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.bio-text a {
+    color: inherit;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+.bio-text a:hover {
+    opacity: 0.6;
+}
+.profile-img {
+    width: 100%;
+    filter: grayscale(20%) contrast(105%);
+    border-right: none;
+    padding-right: 0;
+}
+.bio-header h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--accent);
+    margin-bottom: 2rem;
+}
+.bio-text {
+    font-weight: 300;
+    line-height: 1.8;
+    font-size: 1.05rem;
+    text-align: justify;
+}
+.highlight-bold {
+    font-weight: 600;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <div style="font-weight: 700; letter-spacing: 2px;">
+        <a href="index.html" style="color: white; text-decoration: none;">KP</a>
+    </div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="bio.html">Bio</a>
+    </div>
+</nav>
+
+<div class="container mb-5">
+    <div class="row g-5 align-items-center">
+        
+        <div class="col-md-7">
+            <div class="bio-header">
+                <h2>Biography</h2>
+            </div>
+            <div class="bio-text">
+                <p>
+                    Born in Patras (2005) and a graduate of the Music High School of Patras, 
+                    Konstantinos Potamianos is a filmmaker and musician currently studying 
+                    Digital Arts and Cinema at the National and Kapodistrian University of Athens. 
+                </p>
+                
+                <p>
+                    His cinematic path started early; <b>before even graduating from high school</b>, 
+                    he directed his first documentary, <a href="TheCallOfTheLighthouses.html"><b>"The Call of the Lighthouses"</b></a> (2022), 
+                    which earned multiple awards and international recognition. At the age of 17, he was selected by Camera Zizanio to participate in the 
+                    <b>Film Days (VBU - REEL EXCHANGE)</b> workshop in Sweden and Ireland, 
+                    where he directed the short documentary "Lakes with Different Faces".
+                </p>
+
+                <p>
+                    His dedication to non-fiction storytelling continued through the <b>"Crafting True Narratives"</b> 
+                    masterclass at the International Peloponnese Documentary Festival (2024), and twice through the 
+                    <b>Looking China Youth Film Project</b>, resulting in the documentaries 
+                    <a href="TheFutureOfClay.html"><b>"The Future of Clay"</b></a> and 
+                    <a href="BehindTheShadows.html"><b>"Behind the Shadows"</b></a>.
+                </p>
+
+                <p>
+                In parallel, he is active as a Cinematographer in fiction shorts, including <a href="https://youtu.be/uX3pxt8Q6zI" target="_blank">"New Mexico" (DISFF Official Selected 2025).</a>
+                </p>
+
+                <p>
+                    Apart from filmmaking, he is an accomplished Jazz Drummer. 
+                    His musical background significantly influences his visual rhythm, having notably collaborated with 
+                    the <b>Athens State Orchestra (KoA)</b> in the performance of 
+                    <a href="https://www.youtube.com/watch?v=MQhzdDJ5ZOs" target="_blank"><b>Gershwin's arranged concerto for jazz piano trio and orchestra</b></a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <img src="images/pot.png" alt="Konstantinos Potamianos" class="profile-img">
+        </div>
+
+    </div>
+</div>
+
+<!-- Στατικό Footer -->
+<footer class="container" style="margin-top: 120px; padding: 60px 0; border-top: 1px solid rgba(255,255,255,0.05);">
+    <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+            <span style="letter-spacing: 3px; font-weight: 700;">KP</span>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+            <a href="mailto:ntinospot@email.com" target="_blank" style="color: white; text-decoration: none; font-size: 0.8rem; margin-left: 20px; opacity: 0.6;">EMAIL</a>
+            <a href="https://www.instagram.com/konstantinos.pot/" target="_blank" style="color: white; text-decoration: none; font-size: 0.8rem; margin-left: 20px; opacity: 0.6;">INSTAGRAM</a>
+            <a href="https://www.youtube.com/@ntinospot" target="_blank" style="color: white; text-decoration: none; font-size: 0.8rem; margin-left: 20px; opacity: 0.6;">YOUTUBE</a>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-12 text-center" style="font-size: 0.7rem; opacity: 0.3; letter-spacing: 1px;">
+            &copy; 2026 Konstantinos Potamianos | Digital Arts & Cinema NKUoA
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
